@@ -1,0 +1,183 @@
+a {
+  transition: 0.3s all ease;
+}
+
+.courses .coursebox .panel-body {
+  border: 0px;
+}
+
+div.card-body.pr-1.course-info-container {
+  border: 0px;
+}
+
+.paging.paging-morelink a {
+  padding: 13px 18px;
+  border-radius: 8px;
+}
+
+.card.dashboard-card {
+  border: 0px;
+  box-shadow: 0px 0px 1px 2px #d3d3d35c;
+  border-radius: 8px;
+}
+
+.header {
+  border: 0px;
+}
+
+.section.main {
+  border: 0px;
+  box-shadow: 0px 0px 1px 2px #d3d3d35c;
+  margin: 30px 0px;
+  padding: 25px 20px;
+  border-radius: 8px;
+  border-left: 5px solid #d3d8dd !important;
+}
+
+.section .sectionname {
+  font-weight: bold;
+}
+
+.block {
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+#page {
+  background: #edededd1;
+}
+
+#region-main {
+  padding: 0px;
+  background: transparent !important;
+}
+
+#above-header.stickything {
+  border: 0px;
+}
+
+#main-navbar {
+  border: 0px;
+  padding: 8px 0px;
+}
+
+.breadcrumb {
+  background: transparent;
+}
+
+.topics li:first-child {
+  margin-top: 0px;
+}
+
+#page-footer {
+  background: #00688d;
+}
+
+#page-footer .info {
+  border: 0px;
+}
+
+#searchform-navbar .btn {
+  border: 0px;
+}
+
+div[role="main"] h2 + form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input[type="text"] {
+  border: 0px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px 1px #e3e3e3;
+}
+
+select {
+  border: 0px;
+
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px 1px #e3e3e3;
+}
+
+form .clearfix.collapsible {
+  border: 0px;
+}
+
+label.d-inline.word-break {
+  padding-top: 10px;
+}
+
+.breadcrumb ul i, .breadcrumb li.lastli span {
+  color: #1b76c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.simplesearchform .btn {
+  border: 0px;
+}
+
+#editingbutton .btn.btn-success {
+  border: 0px;
+  padding: 2px 11px 4px 11px;
+}
+
+iframe#resourceobject {
+  border: 0px;
+  border-radius: 8px;
+}
+
+.nav-link i.fa {
+  margin-right: 6px;
+}
+
+.section .label {
+  margin-top: 30px;
+}
+
+.next_activity.prevnext > .text {
+  font-weight: bold;
+  color: #00678d;
+}
+
+.next_activity.prevnext .nav_guide {
+  font-weight: normal;
+}
+
+.previous_activity.prevnext > .text {
+  font-weight: bold;
+  color: #00678d;
+}
+
+.previous_activity.prevnext .nav_guide {
+  font-weight: normal;
+}
+
+.filemanager-container.card {
+  border: 0px;
+}
+
+.filemanager .fp-navbar {
+  border: 0px;
+}
+
+#id_summary_editoreditable {
+  border: 1px solid #d1d1d1;
+  border-top: 0px;
+}
+
+.editor_atto_toolbar {
+  border: 0px;
+  padding: 10px;
+}
+
+.section-handle.moodle-core-dragdrop-draghandle {
+  left: -7px;
+  top: -6px;
+}
+
+.section-handle.moodle-core-dragdrop-draghandle i {
+  font-size: 25px;
+}
