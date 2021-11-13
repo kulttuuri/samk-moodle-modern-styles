@@ -313,3 +313,8 @@ a {
   border-left: 5px solid #d3d8dd;
   padding-left: 45px;
 }
+
+.dropdown-item:hover>a, .dropdown-item:focus>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus, #adaptable-page-header-wrapper .dropdown-menu li a:hover {
+  background: #1b76c8;
+  color: white;
+}
