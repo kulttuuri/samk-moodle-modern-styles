@@ -119,7 +119,7 @@ label.d-inline.word-break {
   border: 0px;
 }
 
-#editingbutton .btn.btn-success {
+#main-navbar .btn {
   border: 0px;
   padding: 2px 11px 4px 11px;
 }
@@ -135,6 +135,10 @@ iframe#resourceobject {
 
 .section .label {
   margin-top: 30px;
+}
+
+.next_activity.prevnext a:hover {
+  transform: scale(1.03);
 }
 
 .next_activity.prevnext > .text {
@@ -180,4 +184,132 @@ iframe#resourceobject {
 
 .section-handle.moodle-core-dragdrop-draghandle i {
   font-size: 25px;
+}
+
+ .page-item .page-link {
+   border: 0px;
+ }
+
+ .block-myoverview div[data-region="filter"] {
+   margin-bottom: 10px;
+ }
+
+ #page-footer p, #page-footer h5 {
+   display: inline-block;
+   padding: 0px 10px;
+ }
+
+.card.dashboard-card {
+  margin: 10px;
+}
+
+.dashboard-card-deck .dashboard-card {
+  transform: 0.5s all ease;
+}
+
+.dashboard-card-deck .dashboard-card:hover {
+  transform: scale(1.03);
+}
+
+.block .header .title {
+  margin-bottom: 5px;
+}
+
+#userprofiletabs .tab-panel {
+  border: 0px;
+  box-shadow: 1px 0px 1px 1px #dddddd !important;
+  border-radius: 0px 8px 8px 8px;
+  padding: 20px;
+  background: white;
+}
+
+#userprofiletabs .adaptabletab:checked+label {
+  background: white;
+  color: black;
+}
+
+div[role="main"] #intro {
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.coursebox.panel.hover .panel-body {
+  transition: 0.3s all ease;
+}
+
+.coursebox.panel.hover:hover .panel-body {
+  background: transparent;
+  transform: scale(1.03)
+}
+
+.coursebox.panel.hover:hover .panel-body .coursebox-content h3, .coursebox.panel.hover:focus .panel-body .coursebox-content h3 {
+  color: black;
+}
+
+.coursebox.panel.hover:hover .panel-body .cimbox {
+  opacity: 1;
+}
+
+.table.discussion-list th,
+.table.discussion-list td {
+  background: white;
+}
+
+.table.discussion-list tbody td {
+  padding: 25px 15px;
+}
+
+.table.discussion-list thead th {
+  border: 0px;
+  padding: 20px 0px;
+  border-bottom: 1px solid #fefefe;
+}
+
+.dropdown-menu {
+  padding: 0px;
+  border: 0px;
+  box-shadow: 0px 0px 1px 1px #d9d9d9b5;
+  border-radius: 8px;
+  transition: 0.3s all ease;
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 10px;
+}
+
+.dropdown-menu .dropdown-item.menu-action:focus {
+  background: unset;
+  color: unset;
+}
+
+.dropdown-menu .dropdown-item.menu-action:hover,
+.dropdown-menu .dropdown-item.menu-action:active {
+  background: #0f6fc5;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.aalink.focus, #page-footer a:not([class]).focus, .arrow_link.focus, a:not([class]).focus, .activityinstance>a.focus, .aalink:focus, #page-footer a:not([class]):focus, .arrow_link:focus, a:not([class]):focus, .activityinstance>a:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  background: transparent;
+}
+
+.activityinstance > a {
+  border-left: 5px solid transparent;
+  padding-left: 45px;
+}
+
+.activityinstance > a:hover {
+  border-left: 5px solid #d3d8dd;
+  padding-left: 45px;
 }
