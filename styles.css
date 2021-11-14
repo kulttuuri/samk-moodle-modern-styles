@@ -292,7 +292,8 @@ a {
   text-decoration: none;
 }
 
-.btn:focus {
+.btn:focus,
+a:focus {
   box-shadow: none;
   outline: none;
 }
@@ -314,7 +315,151 @@ a {
   padding-left: 45px;
 }
 
+.dropdown-item:focus {
+  background: unset;
+}
+
 .dropdown-item:hover>a, .dropdown-item:focus>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus, #adaptable-page-header-wrapper .dropdown-menu li a:hover {
   background: #1b76c8;
   color: white;
+}
+
+.dropdown-item:hover {
+  background: #1b76c8;
+  color: white;
+}
+
+.card-footer .small {
+  margin-top: 10px;
+}
+
+.dropdown-item[aria-current="true"] {
+  border-left: 3px solid black;
+}
+
+.dropdown-item[aria-current="true"]:before {
+  display: none;
+}
+
+#main-navbar {
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.gotocal {
+  margin-top: 7px;
+}
+
+#categoryquestions th {
+  font-weight: bold;
+}
+
+.createnewquestion  {
+  margin-top: 20px;
+}
+
+#categoryquestions td, #categoryquestions th {
+  padding: 12px;
+}
+
+.choosecategory {
+  margin-bottom: 10px;
+}
+
+#id_infoeditable {
+  border: 0px;
+}
+
+.fcontainer.clearfix > div,
+#fgroup_id_updatebuttonar,
+#fgroup_id_buttonar {
+  border: 0px;
+  background: transparent;
+}
+
+#fgroup_id_updatebuttonar .fitem {
+  margin: 0px 5px;
+}
+
+#fgroup_id_updatebuttonar .fitem,
+#fgroup_id_buttonar .fitem {
+  margin: 0px 5px;
+}
+
+#fgroup_id_buttonar {
+  padding-bottom: 20px;
+}
+
+.fdescription.required {
+  margin-top: -20px;
+}
+
+.editor_atto_toolbar {
+  border: 1px solid #cfcfcf;
+  border-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+.editor_atto_content_wrap > div[contenteditable="true"] {
+  border: 1px solid #cfcfcf;
+  border-top: 0px;
+  border-radius: 0px 0px 8px 8px;
+  padding: 10px;
+}
+
+textarea {
+  border: 0px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px 2px #d3d3d35c;
+  padding: 15px;
+}
+
+.ui_wrapper {
+  border: 0px;
+}
+
+#previewcontrols input {
+  margin: 0px 3px;
+}
+
+.que .info {
+  border: 0px;
+}
+
+.formulation.clearfix {
+  border: 1px solid #e3d3d35e;
+  border-radius: 8px;
+}
+
+.generalbox.grades td {
+  background: white;
+  border: 0px;
+  border-bottom: 1px solid #d3d3d35c;
+  padding: 20px 12px;
+}
+
+.que.history,
+.que .formulation {
+  border: 0px;
+}
+
+.que .content {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.que .content .outcome {
+  background: unset;
+  color: black;
+}
+
+.quizreviewsummary td,
+.quizreviewsummary th {
+  border: 0px;
+  padding: 8px;
+  background: white;
+}
+
+.quizreviewsummary {
+  padding: 10px;
 }
