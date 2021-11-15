@@ -1,4 +1,5 @@
 # samk-moodle-modern-styles
+
 Modern styles for SAMK moodle. Can be used with the Stylebot Chrome extension. Welcome back to the current era from the 90s.
 
 ## Old Style
@@ -15,7 +16,9 @@ Modern styles for SAMK moodle. Can be used with the Stylebot Chrome extension. W
 
 ## How to Use
 
-1. Download [Stylebot Google Chrome Extension](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=fi) (NOTE: You need to be using Google Chrome for this to work
+1. Download the Stylebot extension
+   - [Stylebot Google Chrome Extension](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha?hl=fi)
+   - [Stylebot Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/stylebot-web/)
 2. Navigate to SAMK Moodle site
-3. Open the Stylebot Chrome Extension, Click "Open Stylebot", on bottom of the extension press "Code" and then just paste the styles from ``styles.css`` file into your stylebot.
+3. Open the Stylebot Extension, Click "Open Stylebot", on bottom of the extension press "Code" and then just paste the styles from `styles.css` file into your stylebot.
 4. Profit?!
