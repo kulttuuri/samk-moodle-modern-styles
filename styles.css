@@ -463,3 +463,62 @@ textarea {
 .quizreviewsummary {
   padding: 10px;
 }
+
+.submissionstatustable > div {
+  padding: 10px;
+}
+
+#fitem_id_grade #id_grade {
+  min-width: 100px;
+}
+
+#fitem_id_currentgrade {
+  margin-top: 10px;
+}
+
+#fitem_id_currentgrade div {
+  margin-top: 7px;
+}
+
+.path-grade-report-grader .gradeparent table, .path-grade-report-grader .gradeparent .cell {
+  border: 0px;
+  padding: 10px;
+}
+
+span.gradevalue {
+  margin-right: 8px;
+}
+
+.page-item.active .page-link {
+  border-radius: 4px;
+}
+
+.que .history {
+  border: 0px;
+}
+
+.quizreviewsummary tr:last-child td {
+  padding-bottom: 25px;
+}
+
+.quizreviewsummary tr:first-child td,
+.quizreviewsummary tr:first-child th {
+  padding-top: 25px;
+}
+
+.que .comment {
+  border-radius: 8px;
+}
+
+.que .comment .commentlink {
+  margin: 0px;
+  padding: 10px;
+}
+
+.que .comment .commentlink a:hover {
+  font-weight: bold;
+}
+
+.que .info > div {
+  margin-bottom: 15px;
+}
