@@ -1,6 +1,6 @@
 # samk-moodle-modern-styles
 
-Modern styles for SAMK moodle. Can be used with the Stylebot Chrome extension. Welcome back to the current era from the 90s.
+Modern styles for SAMK moodle. Can be used with the Stylebot Chrome / Firefox extension. Welcome back to the current era from the 90s.
 
 ## Old Style
 
