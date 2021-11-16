@@ -522,3 +522,27 @@ span.gradevalue {
 .que .info > div {
   margin-bottom: 15px;
 }
+
+.feedback_info {
+  margin-bottom: 15px;
+}
+
+i.fa-search-plus {
+  margin-left: 8px;
+}
+
+#feedback_edit_form .col-md-9 {
+  padding-left: 30px;
+}
+
+#feedback_dragarea {
+  margin-top: 15px;
+}
+
+#feedback_edit_form > div {
+  margin-bottom: 30px;
+}
+
+.form-buttons {
+  margin-bottom: 15px;
+}
