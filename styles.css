@@ -546,3 +546,50 @@ i.fa-search-plus {
 .form-buttons {
   margin-bottom: 15px;
 }
+
+.box.generalbox {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.editing_move.moodle-core-dragdrop-draghandle {
+  left: 10px;
+  top: 8px;
+}
+
+.section .content {
+  display: relative;
+}
+
+.section_availability {
+  margin-bottom: 35px;
+}
+
+.availabilityinfo.ishidden .badge {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.ad-activity-wrapper {
+  padding-bottom: 8px;
+}
+
+.ad-activity-wrapper .contentwithoutlink h5 {
+  margin-bottom: 7px;
+  margin-top: 8px;
+}
+
+.section .activity .actions-right .actions {
+  top: 10px;
+}
+
+.section-modchooser-link i {
+  margin-right: 6px;
+}
+
+.ad-activity-wrapper .instancename {
+  vertical-align: middle;
+}
