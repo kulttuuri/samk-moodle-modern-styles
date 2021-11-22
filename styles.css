@@ -593,3 +593,42 @@ i.fa-search-plus {
 .ad-activity-wrapper .instancename {
   vertical-align: middle;
 }
+
+.filemanager-container.card .fp-content {
+  min-height: 190px;
+}
+
+.filemanager-container.card .fp-filename-field {
+  min-height: 100px;
+}
+
+.filemanager-container.card .fp-filename {
+  height: 150px;
+}
+
+
+.filemanager-container.card .text-truncate {
+  white-space: unset;
+}
+
+.filemanager .fp-pathbar {
+  margin-top: 5px;
+}
+
+#id_submissiontypes .form-check.fitem {
+  margin-left: 15px;
+}
+
+#id_submissiontypes .form-check.fitem:first-child {
+  margin-left: 0px;
+}
+
+.notifications .alert {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#quiz_overview_regrade_bar {
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
