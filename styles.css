@@ -571,6 +571,8 @@ i.fa-search-plus {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 10px;
+  background: #b1b1b1;
+  color: white;
 }
 
 .ad-activity-wrapper {
