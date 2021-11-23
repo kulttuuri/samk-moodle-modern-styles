@@ -632,3 +632,21 @@ i.fa-search-plus {
   border-radius: 4px;
   margin-bottom: 10px;
 }
+
+.generaltable {
+  background: white;
+  border-radius: 4px;
+}
+
+.generaltable tbody tr:nth-of-type(odd) {
+  background-color: rgba(0,0,0,.04);
+}
+
+.generaltable th, .generaltable td {
+  border-top: 0px;
+  padding: 17px;
+}
+
+.generaltable tbody tr:hover {
+  background-color: rgba(0,0,0,.06)
+}
