@@ -652,3 +652,26 @@ i.fa-search-plus {
 .generaltable tbody tr:hover {
   background-color: rgba(0,0,0,.06)
 }
+
+.gradeform #fitem_id_grade {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.gradeform #fitem_id_grade .align-items-start {
+  float: left;
+}
+
+.gradeform #fitem_id_currentgrade {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+form[data-region="grading-actions-form"] button {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+form[data-region="grading-actions-form"] button[name="savechanges"] {
+  margin-left: 20px;
+}
