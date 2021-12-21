@@ -675,3 +675,25 @@ form[data-region="grading-actions-form"] button {
 form[data-region="grading-actions-form"] button[name="savechanges"] {
   margin-left: 20px;
 }
+
+#region-main > .customalert {
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+#region-main > .customalert a {
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+.filepicker-filelist {
+  border: 0px;
+}
+
+#fitem_id_backupfile + #fitem_id_submitbutton {
+  margin-bottom: 35px;
+}
+
+.backup-files-table + .singlebutton {
+  margin-bottom: 40px;
+}
