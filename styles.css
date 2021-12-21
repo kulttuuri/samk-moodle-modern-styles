@@ -709,3 +709,32 @@ div[role="alertdialog"]#notice .modal-content {
 div[role="alertdialog"]#notice .modal-footer {
   justify-content: center;
 }
+
+div.modal.moodle-has-zindex.show .modal-dialog .modal-content .modal-header {
+  justify-content: center;
+}
+
+div.modal.moodle-has-zindex.show .modal-dialog .modal-content .modal-body {
+  text-align: center;
+}
+
+div.modal.moodle-has-zindex.show .modal-dialog .modal-content .modal-footer {
+  justify-content: center;
+}
+
+div.modal.moodle-has-zindex.show .modal-dialog .modal-content button.close {
+  position: absolute;
+  top: 20px;
+  right: 22px;
+}
+
+div.modal.moodle-has-zindex.show .modal-dialog .modal-content {
+  padding: 25px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 576px) {
+  .modal-dialog {
+    max-width: 600px;
+  }
+}
