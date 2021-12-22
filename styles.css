@@ -269,7 +269,7 @@ div[role="main"] #intro {
   padding: 0px;
   border: 0px;
   box-shadow: 0px 0px 1px 1px #d9d9d9b5;
-  border-radius: 8px;
+  border-radius: 2px;
   transition: 0.3s all ease;
 }
 
@@ -277,10 +277,15 @@ div[role="main"] #intro {
   padding: 10px;
 }
 
-.dropdown-menu .dropdown-item.menu-action:focus {
-  background: unset;
-  color: unset;
+.dropdown-menu .nav-item:hover .dropdown-toggle:after {
+  border-left-color: white !important;
 }
+
+#adaptable-page-header-wrapper .dropdown-menu .dropdown .dropdown-toggle {
+  padding: 0.65rem 1.5rem;
+}
+
+.dropdown-menu .dropdown-item.menu-action:focus
 
 .dropdown-menu .dropdown-item.menu-action:hover,
 .dropdown-menu .dropdown-item.menu-action:active {
@@ -737,4 +742,104 @@ div.modal.moodle-has-zindex.show .modal-dialog .modal-content {
   .modal-dialog {
     max-width: 600px;
   }
+}
+
+@media screen and (min-width: 576px) {
+  .modal-dialog.modal-lg {
+    max-width: 800px;
+  }
+}
+
+.modal-dialog.modchooser .searchbar .input-group-text  {
+  border: 0px;
+}
+
+.modal-dialog.modchooser .nav-item {
+  padding-bottom: 12px;
+  padding-top: 15px;
+  border: 0px !important;
+  font-size: 1rem;
+}
+
+.modal-dialog.modchooser .nav-tabs {
+  border: 0px !important;
+}
+
+.modal-dialog.modchooser .tab-content {
+  border: 0px !important;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.modal-dialog.modchooser .nav-item.active {
+  font-weight: bold;
+  border: 0px;
+}
+
+.modal-dialog.modchooser .nav-item:hover,
+.modal-dialog.modchooser .nav-item:focus {
+  font-weight: bold;
+  border: 0px !important;
+}
+
+.modal-dialog.modchooser div[role="menuitem"] .optioninfo {
+  padding-top: 15px;
+}
+
+.modal-dialog.modchooser div[role="menuitem"] {
+  border-radius: 4px;
+}
+
+.modchoosercontainer .optionscontainer .option, .modchoosercontainer .searchresultitemscontainer .option {
+  flex-basis: calc(20% - .5rem);
+}
+
+.mod-quiz-edit-content .instancemaxmarkcontainer {
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.mod-quiz-edit-content .instancemaxmarkcontainer span:last-child {
+  margin-left: 5px;
+}
+
+.mod-quiz-edit-content li.activity.slot {
+  padding: 10px;
+  background: #f3f3f3;
+  border-radius: 8px;
+}
+
+#page-mod-quiz-edit ul.slots li.section {
+  border: 0px;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+#page-mod-quiz-edit ul.slots li.section .content {
+  padding: 30px 5px;
+  border-radius: 8px;
+}
+
+#page-mod-quiz-edit .pagenumber {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#page-mod-quiz-edit .last-add-menu .add-menu-outer {
+  top: 7px;
+}
+
+#page-mod-quiz-edit ul.slots .slotnumber,
+#page-mod-quiz-edit ul.slots .actions {
+  background: unset;
+}
+
+#page-mod-quiz-edit ul.slots .actions a i {
+  padding-top: 10px;
+}
+
+#page-mod-quiz-edit ul.slots .activityinstance span.instancename {
+  height: 26px;
+}
+
+.mod_quiz-edit-top-controls .quizsavegradesform fieldset * {
+  margin-left: 10px;
 }
