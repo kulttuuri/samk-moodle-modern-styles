@@ -843,3 +843,16 @@ div.modal.moodle-has-zindex.show .modal-dialog .modal-content {
 .mod_quiz-edit-top-controls .quizsavegradesform fieldset * {
   margin-left: 10px;
 }
+
+.activity .ad-activity-wrapper {
+  border-bottom: 0px;
+}
+
+.maincalendar .calendarwrapper {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.maincalendar .header select {
+  margin-left: 10px;
+}
