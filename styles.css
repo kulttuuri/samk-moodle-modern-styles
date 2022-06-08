@@ -88,10 +88,15 @@ div[role="main"] h2 + form {
 }
 
 input[type="text"] {
-  border: 0px;
+  border: 1px solid #bfbfbf;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0px 0px 1px 1px #e3e3e3;
+  transition: 0.4s all ease;
+}
+
+input[type="text"]:focus {
+  box-shadow: none;
+  border: 1px solid black;
 }
 
 select {
@@ -855,4 +860,20 @@ div.modal.moodle-has-zindex.show .modal-dialog .modal-content {
 
 .maincalendar .header select {
   margin-left: 10px;
+}
+
+.section .activity .contentwithoutlink>a>span, .section .activity .activityinstance>a>span, .section .activity .contentwithoutlink .inplaceeditable>a>span, .section .activity .activityinstance .inplaceeditable>a>span {
+  font-weight: normal;
+}
+
+.section li.activity.hasinfo {
+  border-bottom: 0px;
+}
+
+.section li .ad-activity-wrapper {
+  box-shadow: none;
+}
+
+div[data-region=completion-info] {
+  float: right;
 }
