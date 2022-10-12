@@ -2,6 +2,10 @@ a {
   transition: 0.3s all ease;
 }
 
+.ad-activity-wrapper .contentafterlink {
+  clear: both;
+}
+
 .courses .coursebox .panel-body {
   border: 0px;
 }
@@ -875,5 +879,64 @@ div.modal.moodle-has-zindex.show .modal-dialog .modal-content {
 }
 
 div[data-region=completion-info] {
-  float: right;
+  float: left;
+}
+
+div[data-region=completion-info] button {
+  margin-top: 10px;
+  font-size: 90%;
+  color:  black;
+  transform: 1s all ease;
+  margin-left: 22px;
+  margin-bottom: 5px;
+}
+
+div[data-region=completion-info] button:hover {
+  color: black;
+}
+
+div[data-region=completion-info] button.btn-outline-secondary {
+  background-color: #f8dfdf;
+}
+
+div[data-region=completion-info] button.btn-outline-secondary:hover {
+  background-color: #81d881;
+}
+
+div[data-region=completion-info] button.btn-outline-success {
+  background-color: #81d881;
+  box-shadow: none;
+  border: 0px;
+}
+
+div[data-region=completion-info] button.btn-outline-success:hover {
+  background-color: #f8dfdf;
+}
+
+.course-content > .single-section > .nav-tabs li.nav-item > a > innertab {
+  border-radius: 4px;
+}
+
+.format-onetopic .onetopic .nav-tabs .nav-link.active, .format-onetopic .onetopic .nav-tabs .nav-item.show .nav-link {
+  background: none;
+  color: #2f2d2d!important;
+}
+
+.format-onetopic .onetopic .nav-tabs .nav-link.active innertab {
+  border-left: 3px solid #9bd7f8;
+  border-right: 3px solid #9bd7f8;
+}
+
+.format-onetopic .onetopic .tab_content {
+  padding: 5px 9px;
+}
+
+.format-onetopic .onetopic .nav-tabs .nav-link {
+  background: none !important;
+  border: none;
+  margin: 2px 3px;
+}
+
+.format-onetopic .onetopic.verticaltabs>.nav.nav-tabs:nth-of-type(1) {
+  border-right: 0px;
 }
