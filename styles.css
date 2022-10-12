@@ -581,6 +581,10 @@ i.fa-search-plus {
   margin-bottom: 35px;
 }
 
+.availabilityinfo.ishidden {
+  margin-top: 10px;
+}
+
 .availabilityinfo.ishidden .badge {
   padding: 10px;
   border-radius: 4px;
@@ -880,6 +884,7 @@ div.modal.moodle-has-zindex.show .modal-dialog .modal-content {
 
 div[data-region=completion-info] {
   float: left;
+  margin-right: 10px;
 }
 
 div[data-region=completion-info] button {
@@ -939,4 +944,26 @@ div[data-region=completion-info] button.btn-outline-success:hover {
 
 .format-onetopic .onetopic.verticaltabs>.nav.nav-tabs:nth-of-type(1) {
   border-right: 0px;
+}
+
+.block_completion_progress .progressPercentage {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.block_completion_progress .progressBarCell.completed {
+  background-color: #69d669;
+}
+
+.block_completion_progress .progressBarCell.futureNotCompleted {
+  background-color: #efabab;
+}
+
+.block_completion_progress .progressEventInfo {
+  font-size: 12px;
+}
+
+.block_completion_progress .progressEventInfo a img {
+  margin-right: 10px;
 }
