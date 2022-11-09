@@ -570,7 +570,7 @@ i.fa-search-plus {
 
 .editing_move.moodle-core-dragdrop-draghandle {
   left: 10px;
-  top: 8px;
+  /*top: 8px;*/
 }
 
 .section .content {
@@ -966,4 +966,53 @@ div[data-region=completion-info] button.btn-outline-success:hover {
 
 .block_completion_progress .progressEventInfo a img {
   margin-right: 10px;
+}
+
+.courses.frontpage-course-list-enrolled .coursebtn {
+  display: none;
+}
+
+.courses.frontpage-course-list-enrolled h3 {
+  margin-top: 15px;
+}
+
+.courses.frontpage-course-list-enrolled .coursebox-content a h3, .courses.frontpage-course-list-enrolled .coursebox-content a {
+  color: #0F6FC5;
+}
+
+.coursebox.panel.hover:hover .panel-body .coursebox-content h3, .coursebox.panel.hover:focus .panel-body .coursebox-content h3 {
+  color: #0F6FC5;
+}
+
+.courses.frontpage-course-list-enrolled .summary {
+  margin-top: 12px;
+}
+
+.courses.frontpage-course-list-enrolled .teachers {
+  text-align: center;
+  transition: 0.5s all ease;
+}
+
+.courses.frontpage-course-list-enrolled .teachers a {
+  color: black;
+}
+
+.courses.frontpage-course-list-enrolled span[title] {
+  color: black;
+}
+
+.courses.frontpage-course-list-enrolled .enrolmenticons {
+  display: none;
+}
+
+.input-group .btn.search-icon {
+  margin-left: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#ticker-announce {
+  border-radius: 8px !important;
+  background: #01a4cd;
+  text-transform: initial;
 }
