@@ -197,6 +197,11 @@ iframe#resourceobject {
 
  .page-item .page-link {
    border: 0px;
+   color: #01a4cd;
+ }
+
+ .page-item.disabled a {
+   opacity: .35;
  }
 
  .block-myoverview div[data-region="filter"] {
@@ -1065,4 +1070,21 @@ div[data-region=completion-info] button.btn-outline-success:hover {
 
 #main-navbar .dropdown-toggle:after {
   border-left-color: #01a4cd;
+}
+
+.show>.btn-outline-secondary.dropdown-toggle {
+  background: inherit;
+  color: black;
+}
+
+a.dropdown-item:hover {
+  background: #01a4cd;
+}
+
+a.dropdown-item[aria-current="true"] {
+  border-left: 5px solid #9bd7f8;
+}
+
+div[data-region="filter"] button:hover, div[data-region="paging-control-limit-container"] button:hover {
+  background: #01a4cd;
 }
