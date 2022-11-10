@@ -325,7 +325,7 @@ a:focus {
 }
 
 .activityinstance > a:hover {
-  border-left: 5px solid #d3d8dd;
+  border-left: 5px solid #036a8f4a;
   padding-left: 45px;
 }
 
@@ -334,7 +334,7 @@ a:focus {
 }
 
 .dropdown-item:hover>a, .dropdown-item:focus>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus, #adaptable-page-header-wrapper .dropdown-menu li a:hover {
-  background: #1b76c8;
+  background: #01a4cd;
   color: white;
 }
 
@@ -928,8 +928,8 @@ div[data-region=completion-info] button.btn-outline-success:hover {
 }
 
 .format-onetopic .onetopic .nav-tabs .nav-link.active innertab {
-  border-left: 3px solid #9bd7f8;
-  border-right: 3px solid #9bd7f8;
+  border-left: 5px solid #9bd7f8;
+  border-right: 5px solid #9bd7f8;
 }
 
 .format-onetopic .onetopic .tab_content {
@@ -985,7 +985,9 @@ div[data-region=completion-info] button.btn-outline-success:hover {
 }
 
 .courses.frontpage-course-list-enrolled .summary {
-  margin-top: 12px;
+  padding-top: 20px;
+  background: white;
+  opacity: .8;
 }
 
 .courses.frontpage-course-list-enrolled .teachers {
@@ -1015,4 +1017,52 @@ div[data-region=completion-info] button.btn-outline-success:hover {
   border-radius: 8px !important;
   background: #01a4cd;
   text-transform: initial;
+}
+
+.courses .coursebox .panel-body {
+  padding: 0px;
+  margin: 20px;
+}
+
+.format-onetopic .onetopic .nav-tabs .nav-link.active .tab_content, .format-onetopic .onetopic .nav-tabs .nav-link.active .tab_content .sectionname {
+  background: #01a4cd;
+  background-color: #01a4cd;
+  color: white;
+}
+
+.format-onetopic .tab_content.marker {
+  font-weight: normal;
+}
+
+.section .activity .contentwithoutlink>a, .section .activity .activityinstance>a, .section .activity .contentwithoutlink .inplaceeditable>a, .section .activity .activityinstance .inplaceeditable>a {
+  color: #026a8f;
+}
+
+.section .activity .contentwithoutlink>a, .section .activity .activityinstance>a, .section .activity .contentwithoutlink .inplaceeditable>a, .section .activity .activityinstance .quickeditlink span {
+  color: #026a8f;
+}
+
+.section .activity .activityinstance .quickeditlink span.quickediticon {
+  color: black;
+}
+
+.format-onetopic .onetopic .nav-tabs .nav-link .tab_content {
+  transition: 0.5s all ease;
+}
+
+.format-onetopic .onetopic .nav-tabs .nav-link .tab_content:hover {
+  border-left: 5px solid #9bd7f8;
+  border-right: 5px solid #9bd7f8;
+}
+
+#main-navbar .dropdown-menu .nav-item:hover, #main-navbar {
+  border-left: 5px solid #9bd7f8;
+}
+
+#main-navbar .dropdown .nav-item {
+  border-left: 5px solid white;
+}
+
+#main-navbar .dropdown-toggle:after {
+  border-left-color: #01a4cd;
 }
