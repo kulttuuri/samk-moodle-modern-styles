@@ -1088,3 +1088,45 @@ a.dropdown-item[aria-current="true"] {
 div[data-region="filter"] button:hover, div[data-region="paging-control-limit-container"] button:hover {
   background: #01a4cd;
 }
+
+body:not(.zoomin) #page.fullin .dashboard-card-deck:not(.fixed-width-cards) .dashboard-card {
+  width: calc(22%)
+}
+
+@media screen and (max-width: 600px) {
+ .dashboard-card {
+    width: 100%;
+  }
+}
+
+.im-feedback .correctness.badge.correct {
+  font-size: 13px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #69d669;
+  color: #3a503b;
+}
+
+.answer i.fa-check {
+  margin-left: 10px;
+  color: #69d669;
+}
+
+.im-feedback .correctness.badge.incorrect {
+  font-size: 13px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background-color: #e96565;
+  color: white;
+}
+
+.answer i.fa-remove {
+  margin-left: 10px;
+  color: #e96565;
+}
+
+.im-feedback .gradingdetails {
+  font-size: 14px;
+}
