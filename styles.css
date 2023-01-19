@@ -1130,3 +1130,8 @@ body:not(.zoomin) #page.fullin .dashboard-card-deck:not(.fixed-width-cards) .das
 .im-feedback .gradingdetails {
   font-size: 14px;
 }
+
+.activity-information {
+  margin-left: 25px;
+  margin-top: 10px;
+}
