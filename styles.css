@@ -1143,3 +1143,8 @@ body:not(.zoomin) #page.fullin .dashboard-card-deck:not(.fixed-width-cards) .das
 #adaptable-page-header-wrapper #coursetitle {
   font-size: 26px
 }
+
+#page-second-header {
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
+}
