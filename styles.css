@@ -1135,3 +1135,11 @@ body:not(.zoomin) #page.fullin .dashboard-card-deck:not(.fixed-width-cards) .das
   margin-left: 25px;
   margin-top: 10px;
 }
+
+#adaptable-page-header-wrapper #logo {
+  max-width: 90px;
+}
+
+#adaptable-page-header-wrapper #coursetitle {
+  font-size: 26px
+}
