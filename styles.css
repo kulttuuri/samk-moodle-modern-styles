@@ -1148,3 +1148,9 @@ body:not(.zoomin) #page.fullin .dashboard-card-deck:not(.fixed-width-cards) .das
   padding-top: 10px !important;
   padding-bottom: 0px !important;
 }
+
+.essay.manualgraded.complete .ablock .answer {
+  border-top: 2px dashed gray;
+  padding-top: 30px;
+  margin-top: 60px;
+}
