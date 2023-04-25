@@ -1154,3 +1154,11 @@ body:not(.zoomin) #page.fullin .dashboard-card-deck:not(.fixed-width-cards) .das
   padding-top: 30px;
   margin-top: 60px;
 }
+
+.gradetreebox #gradetreeform tr.item > td.column-name {
+  padding-left: 50px;
+}
+
+.gradetreebox #gradetreeform .cell h4 {
+  font-weight: bold;
+}
